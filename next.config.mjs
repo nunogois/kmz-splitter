@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import pkg from './package.json' with { type: 'json' }
 
-export default nextConfig;
+const nextConfig = {
+  env: {
+    VERSION: pkg.version
+  }
+}
+
+export default nextConfig
