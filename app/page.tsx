@@ -127,7 +127,7 @@ const Home = () => {
         </a>
         .
       </p>
-      <p className='text-xs mt-4 text-emerald-800 dark:text-emerald-300'>
+      <p className='text-xs mt-4 text-emerald-800 dark:text-emerald-300 opacity-70'>
         v{process.env.VERSION}
       </p>
     </div>
