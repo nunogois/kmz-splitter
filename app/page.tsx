@@ -60,7 +60,7 @@ const Home = () => {
               }))
             }
 
-            const kmlString = builder.buildObject(kml)
+            const kmlString = builder.buildObject({ kml })
             outputZip.file(`${s}.kml`, kmlString)
 
             console.log(`${i}%`)
