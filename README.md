@@ -1,3 +1,17 @@
+# kmz-splitter
+
+https://kmz-splitter.nunogois.com/
+
+Split a KMZ file into multiple smaller KML files.
+
+Can be especially handy when you have a large KMZ file that you want to split into smaller files for easier handling.
+
+The processing happens locally on your browser, so your data is safe and never stored.
+
+The current process is limited to a specific use case. If you'd like to adapt it to your needs, feel free to fork this repository.
+
+## Development
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,12 +19,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 

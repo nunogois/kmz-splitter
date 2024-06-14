@@ -1,5 +1,5 @@
 {
-  "name": "kmz-split",
+  "name": "kmz-splitter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "jszip": "^3.10.1",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/xml2js": "^0.4.14",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "typescript": "^5"
   }
 }
